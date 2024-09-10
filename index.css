@@ -1,0 +1,58 @@
+
+h1 {
+    position: fixed; 
+    top: 23%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 275%;
+}
+
+input {
+    width: 300px; 
+    height: 40px; 
+    padding: 10px; 
+    font-size: 100%; 
+    top: 30%; 
+    left: 50%;
+}
+body {
+    background: lightskyblue;
+  background: -webkit-linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  );
+  background: linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  );
+}
+
+.moving-input {
+  position: fixed; 
+  top: 30%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+#startGameForm {
+  font-size: 20px; 
+  width: 200px; 
+  height: 80px; 
+  border-radius: 5px; 
+  position: fixed; 
+  top: 45%; 
+  left: 45%; 
+  
+}
+
+#leaderBoard {
+  font-size: 20px; 
+  width: 200px; 
+  height: 80px; 
+  border-radius: 5px; 
+  position: fixed; 
+  top: 65%; 
+  left: 45%; 
+}
