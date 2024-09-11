@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memory Game</title>
-  <link rel="stylesheet" href="./index.css">
-  <script defer src="./index.js" type="text/javascript"></script>
-</head>
-
-<body>
-  <div>
-    <form onsubmit="startGame(event)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js" type="text/javascript"></script>
+  </head>
+  <body>
+      <form onsubmit="startGame(event)" id="container">
         <div>
-            <h1>Choose Username</h1>
-        </div>  
+          <h1>Choose Username</h1>
+        </div>
 
         <div>
-            <input type="text" class="moving-input" id="username" name="username" required>
+          <input
+            type="text"
+            class="moving-input"
+            id="username"
+            name="username"
+            required
+          />
         </div>
 
         <button id="startGameForm" type="submit">Start Game</button>
-    </form>
-    
-    <div>
         <a href="./leaderboard.html">
-            <button id="leaderBoard" type="submit">Leader Board</button>   
+          <button class="leaderboard" type="button">Leader Board</button>
         </a>
-    </div>  
-</div>
-</body>
-
+      </form>
+  </body>
+</html>

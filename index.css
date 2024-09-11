@@ -1,58 +1,54 @@
+html,
+body {
+  height: 100%;
+}
 
 h1 {
-    position: fixed; 
-    top: 23%; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    font-size: 275%;
+  font-size: 275%;
+  text-align: center;
+  color: #311e52;
 }
 
 input {
-    width: 300px; 
-    height: 40px; 
-    padding: 10px; 
-    font-size: 100%; 
-    top: 30%; 
-    left: 50%;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  font-size: 100%;
 }
 body {
-    background: lightskyblue;
-  background: -webkit-linear-gradient(
-    to right,
-    #acb6e5,
-    #74ebd5
-  );
-  background: linear-gradient(
-    to right,
-    #acb6e5,
-    #74ebd5
-  );
+  background: lightskyblue;
+  background: -webkit-linear-gradient(to right, #acb6e5, #74ebd5);
+  background: linear-gradient(to right, #acb6e5, #74ebd5);
+  min-height: 100%;
 }
 
 .moving-input {
-  position: fixed; 
-  top: 30%; 
-  left: 50%; 
-  transform: translateX(-50%); 
+  border: #7f52b7 2px solid;
+}
+
+.leaderboard {
+  font-size: 20px;
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  border: #7f52b7 2px solid;
+  background-color: #acb6e5;
 }
 
 #startGameForm {
-  font-size: 20px; 
-  width: 200px; 
-  height: 80px; 
-  border-radius: 5px; 
-  position: fixed; 
-  top: 45%; 
-  left: 45%; 
-  
+  font-size: 20px;
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  border: #7f52b7 2px solid;
+  background-color: #acb6e5;
 }
 
-#leaderBoard {
-  font-size: 20px; 
-  width: 200px; 
-  height: 80px; 
-  border-radius: 5px; 
-  position: fixed; 
-  top: 65%; 
-  left: 45%; 
+#container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  margin: 10px 0;
 }
