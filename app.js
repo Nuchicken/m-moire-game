@@ -8,22 +8,22 @@ playerLivesCount.textContent = playerLives
 
 // generate the data for the cards 
 const getData = () => [
-  {imgSrc: './images/bulbasaur.jpg', name: 'bulbasaur'},
-  {imgSrc: './images/squirtle.jpg', name: 'squirtle'},
-  {imgSrc: './images/blue something.jpg', name: 'blue'},
-  {imgSrc: './images/charmander.jpg', name: 'charmander'},
-  {imgSrc: './images/eve.jpg', name: 'eve'},
-  {imgSrc: './images/mewtwo.jpg', name: 'mewtwo'},
-  {imgSrc: './images/pika.jpg', name: 'pika'},
-  {imgSrc: './images/pokeball.jpg', name: 'pokeball'},
-  {imgSrc: './images/bulbasaur.jpg', name: 'bulbasaur'},
-  {imgSrc: './images/squirtle.jpg', name: 'squirtle'},
-  {imgSrc: './images/blue something.jpg', name: 'blue'},
-  {imgSrc: './images/charmander.jpg', name: 'charmander'},
-  {imgSrc: './images/eve.jpg', name: 'eve'},
-  {imgSrc: './images/mewtwo.jpg', name: 'mewtwo'},
-  {imgSrc: './images/pika.jpg', name: 'pika'},
-  {imgSrc: './images/pokeball.jpg', name: 'pokeball'},
+  {imgSrc: './images/pokemon/bulbasaurNew.jpg', name: 'bulbasaur'},
+  {imgSrc: './images/pokemon/squirtleNew.jpg', name: 'squirtle'},
+  {imgSrc: './images/pokemon/vaporeonNew.jpg', name: 'vaporeon'},
+  {imgSrc: './images/pokemon/charmanderNew.jpg', name: 'charmander'},
+  {imgSrc: './images/pokemon/eveeNew.png', name: 'eve'},
+  {imgSrc: './images/pokemon/mewtwoNew.jpg', name: 'mewtwo'},
+  {imgSrc: './images/pokemon/pikachuNew.jpg', name: 'pikachu'},
+  {imgSrc: './images/pokemon/snorlaxNew.jpg', name: 'snorlax'},
+  {imgSrc: './images/pokemon/bulbasaurNew.jpg', name: 'bulbasaur'},
+  {imgSrc: './images/pokemon/squirtleNew.jpg', name: 'squirtle'},
+  {imgSrc: './images/pokemon/vaporeonNew.jpg', name: 'vaporeon'},
+  {imgSrc: './images/pokemon/charmanderNew.jpg', name: 'charmander'},
+  {imgSrc: './images/pokemon/eveeNew.png', name: 'eve'},
+  {imgSrc: './images/pokemon/mewtwoNew.jpg', name: 'mewtwo'},
+  {imgSrc: './images/pokemon/pikachuNew.jpg', name: 'pika'},
+  {imgSrc: './images/pokemon/snorlaxNew.jpg', name: 'snorlax'},
 ];
 
 // sort and randomize cards
