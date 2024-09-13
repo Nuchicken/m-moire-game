@@ -22,7 +22,7 @@ const getData = () => [
   {imgSrc: './images/pokemon/charmanderNew.jpg', name: 'charmander'},
   {imgSrc: './images/pokemon/eveeNew.png', name: 'eve'},
   {imgSrc: './images/pokemon/mewtwoNew.jpg', name: 'mewtwo'},
-  {imgSrc: './images/pokemon/pikachuNew.jpg', name: 'pika'},
+  {imgSrc: './images/pokemon/pikachuNew.jpg', name: 'pikachu'},
   {imgSrc: './images/pokemon/snorlaxNew.jpg', name: 'snorlax'},
 ];
 
