@@ -19,6 +19,17 @@ body {
   flex-direction: column;
 
 }
+.btn-primary {
+  background-color: #007bff; /* Change background color */
+  border-color: #007bff; /* Change border color */
+  align-items: center;
+  /* Add any additional styles you want */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Change background color on hover */
+  border-color: #0056b3; /* Change border color on hover */
+}
 
 section {
   display: grid;
@@ -33,7 +44,7 @@ section {
   transform-style: preserve-3d;
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   box-shadow: rgb(0, 0, 0, 0.2) 0px 5px 15px;
-  border-radius: 50px;
+  border-radius: 75px;
 
 
 }
@@ -64,3 +75,4 @@ section {
 .toggleCard {
   transform: rotateY(180deg);
 }
+

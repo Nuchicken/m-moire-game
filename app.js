@@ -38,6 +38,7 @@ const randomize = () => {
   return cardData;
 }  
 
+
 // Generate HTML for the cards
 const cardGenerator = () => {
   // pulls randomized array and sets it as a variable 'cardData'
@@ -131,3 +132,23 @@ const restart = (text) => {
 };
 
 cardGenerator ();
+
+const modal = document.getElementById('modal');
+const modalMessage = document.getElementById('modal-message');
+const homeButton = document.getElementById('home-button');
+const leaderboardButton = document.getElementById('leaderboard-button');
+
+function showModal(message) {
+    modalMessage.textContent = message;
+    modal.style.display = 'block'; // Show the modal
+}
+
+homeButton.addEventListener('click', function() {
+    modal.style.display = 'none'; // Hide the modal
+    // Additional logic for home button
+});
+
+leaderboardButton.addEventListener('click', function() {
+    modal.style.display = 'none'; // Hide the modal
+    // Additional logic for leaderboard button
+});
